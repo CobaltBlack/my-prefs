@@ -1,0 +1,65 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "search.showLineNumbers": true,
+    "editor.cursorBlinking": "smooth",
+    "terminal.integrated.cursorBlinking": true,
+    "breadcrumbs.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.activityBar.visible": false,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.glyphMargin": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 8,
+    "editor.unfoldOnClickAfterEndOfLine": true,
+
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.rootfs": true,
+        "**/.svn": true,
+        "**/*.d": true,
+        "**/*.map": true,
+        "**/*.o": true,
+        "**/*.so": true,
+        "**/CVS": true
+    },
+    "files.associations": {
+        "**/django_templates/**/*.html": "django-html",
+        "*.html": "html",
+        "*.txt": "plaintext"
+    },
+    "extensions.ignoreRecommendations": true,
+    "editor.renderWhitespace": "all",
+    "javascript.suggest.autoImports": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "gitlens.sortBranchesBy": "date:desc",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "gitlens.hovers.currentLine.over": "line",
+    "timeline.excludeSources": [
+        "git-history"
+    ],
+    "gitlens.views.repositories.location": "gitlens",
+    "files.trimTrailingWhitespace": true,
+    "python.showStartPage": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}
